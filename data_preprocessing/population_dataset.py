@@ -1,4 +1,12 @@
 import os, sys, shutil
+from PIL import Image
+import matplotlib.pyplot as plt
+"""
+TODO
+1. preprocessing 정리
+"""
+
+
 # 원본 데이터셋을 압축 해제한 디렉터리 경로
 original_dataset_dir = '../CNN_image/region/train'
 
