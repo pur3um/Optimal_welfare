@@ -1,5 +1,6 @@
 import os, sys, shutil
 from PIL import Image
+import numpy as np
 from keras.preprocessing.image import ImageDataGenerator
 from keras.utils import array_to_img, img_to_array, load_img
 from keras.preprocessing import image
@@ -19,6 +20,9 @@ class DataPreprocessing:
         self.image_path = "../input/train_small"  # 정확한 path 측정후 수정 필요
         self.file_name = None
         self.file_type = None
+
+    def state_check(self):
+        return np.shape(self.image_path)
 
     def data_generator(self, x_data, y_data, batch_size):
         """
