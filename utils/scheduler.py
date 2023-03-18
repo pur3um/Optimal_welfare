@@ -1,6 +1,7 @@
 import math
 from torch.optim.lr_scheduler import LambdaLR
 
+## -- JUST TEST
 class WarmupCosineSchedule(LambdaLR):
     """
     Linear warmup and then cosine decay.

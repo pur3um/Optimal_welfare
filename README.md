@@ -17,24 +17,16 @@ OPT+W는 데이터 분석과 딥러닝을 사용하여 미활용 폐교를 활�
 
 ```bash
 .
-├── TransUNet
-│   ├──datasets
-│   │       └── dataset_*.py
-│   ├──train.py
-│   ├──test.py
-│   └──...
-├── model
-│   ├──...
-│   ├── population_model
-│   └── segmentation_model
-└── data
-    └──Synapse
-        ├── test_vol_h5
-        │   ├── case0001.npy.h5
-        │   └── *.npy.h5
-        └── train_npz
-            ├── case0005_slice000.npz
-            └── *.npz
+├─.idea
+│  └─inspectionProfiles
+├─dataset
+├─data_preprocessing
+├─model
+└─utils
 ```
 
--> 과거 부분을 올리고 그 후에 개선된 버전을 추가해서 올리는 느낌으로 포트폴리오 완성하기
+
+class_population = (cls) -> 2개의 이미지 subplot
+class_segmentation = (cls) -> 4개의 이미지 subplot
+test data 정확도, precision, recall, f1-score 데이터가 결과로
+
