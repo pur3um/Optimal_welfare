@@ -185,10 +185,6 @@ print('test acc:', test_acc)
 output = model1.predict_generator(test_set, steps=5)
 print(test_set.class_indices)
 print(output)
+# print(len(test_set.filenames))
 print(test_set.filenames)
 
-len(test_set.filenames)
-
-import pandas as pd
-df = pd.DataFrame(output)
-df

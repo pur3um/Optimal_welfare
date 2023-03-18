@@ -16,7 +16,7 @@
 ├── school
 │   ├── data_preprocessing
 │   └── segmentation_model
-├── past_model
+├── model
 │   ├── population_model
 │   └── segmentation_model
 └── model
