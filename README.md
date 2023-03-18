@@ -25,8 +25,8 @@ OPT+W는 데이터 분석과 딥러닝을 사용하여 미활용 폐교를 활�
 └─utils
 ```
 
-
-class_population = (cls) -> 2개의 이미지 subplot
-class_segmentation = (cls) -> 4개의 이미지 subplot
-test data 정확도, precision, recall, f1-score 데이터가 결과로
+## details
+class_population = (cls) -> 2개의 이미지 classification
+class_segmentation = (cls) -> 4개의 이미지 classification
+test data 정확도, precision, recall, f1-score 결과
 
