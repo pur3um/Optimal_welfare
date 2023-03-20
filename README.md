@@ -22,6 +22,8 @@ OPT+W는 데이터 분석과 딥러닝을 사용하여 미활용 폐교를 활�
 ├─dataset
 ├─data_preprocessing
 ├─model
+│  ├─population_classification.py
+│  └─segmentation_classification.py
 └─utils
 ```
 
